@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tag" type="id"/>
+    <item name="tag_expandable_text_view_reused" type="id"/>
+    <item name="tag_course_query_type" type="id">type</item>
+    <item name="tag_course_query_index" type="id">index</item>
+
+</resources>
