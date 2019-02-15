@@ -11,7 +11,7 @@ import android.net.Uri;
 
 public class AssetsUtil {
 	
-	/**
+	/** 
 	 * 安装assets中的apk
 	 * @param context
 	 * @param fileName
