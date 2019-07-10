@@ -71,4 +71,15 @@ public class DateUtil {
 
 		return Integer.parseInt(String.valueOf(between_days));
 	}
+	
+	public static int secondBetweenNow(String bdate) throws ParseException {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(new Date());
+		long time1 = cal.getTimeInMillis();
+		cal.setTime(sdf.parse(bdate));
+		long time2 = cal.getTimeInMillis();
+		long between_days = (time2 - time1) / 1000;
+		return Integer.parseInt(String.valueOf(between_days));
+	}
 }
